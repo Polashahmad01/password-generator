@@ -1,9 +1,11 @@
+import { GeneratePasswordForm } from './components/GeneratePasswordForm'
 
 function App() {
 
   return (
-    <div className="bg-blue-500">
-      <h1>Password Generator</h1>
+    <div className="flex flex-col justify-center items-center h-screen">
+      <h1 className="text-4xl text-white font-bold mb-6">Password Generator</h1>
+      <GeneratePasswordForm />
     </div>
   )
 }
