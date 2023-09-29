@@ -28,6 +28,8 @@ export const GeneratePasswordForm = () => {
           <input type="text" className="px-4 py-2 rounded-md w-full" />
         </div>
 
+        <div></div>
+
         <div className="flex items-center">
           <button className="bg-slate-800 text-white text-base mt-4 px-4 py-2 rounded-lg border w-full transition-all hover:border-[#646cff] hover:bg-slate-900">Generate</button>
         </div>
