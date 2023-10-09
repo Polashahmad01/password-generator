@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen">
-      <h1 className="text-4xl text-white font-bold mb-6">Password Generator</h1>
+      <h1 className="text-3xl text-white font-bold mb-6">Password Generator</h1>
       <GeneratePasswordForm />
     </div>
   )

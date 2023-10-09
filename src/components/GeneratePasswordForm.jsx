@@ -1,7 +1,7 @@
 export const GeneratePasswordForm = () => {
 
   return (
-    <div className="bg-slate-600 px-6 py-8 rounded-md">
+    <div className="bg-slate-600 px-6 py-8 rounded-md w-1/4">
       <form>
 
         <div className="flex items-center gap-4 text-white mb-1">
